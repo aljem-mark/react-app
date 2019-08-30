@@ -1,9 +1,12 @@
 import React from 'react'
-import HelloWorld from '~pages/HelloWorld'
+import { Header, Sidebar } from '~components'
 
 function App() {
   return (
-    <HelloWorld />
+    <div className="min-h-screen">
+      <Header />
+      <Sidebar />
+    </div>
   )
 }
 
